@@ -22,7 +22,7 @@ nic='wlan0'
 network_check_threshold=5
 # Set reboot_server to true if you want to reboot the system as a last
 # option to fix wifi in case the normal restore procedure fails.
-reboot_server=false
+reboot_server=true
 # Set reboot_server to the desired amount of minutes, it is used to
 # prevent reboot loops in case network is down for long time and reboot_server
 # is enabled.
