@@ -12,7 +12,7 @@
 # If any of the ips responds, the network is considered functional.
 # A minimum of one ip is required, in the example below it shows how to check two different
 # gateways using a space character as delimiter.
-gateway_ips='1.1.1.1 8.8.8.8'
+gateway_ips='google.com'
 # Set nic to your Network card name, as seen in ip output.
 # If you have multiple interfaces and are currently online, you can find which is in use with:
 # ip route get 1.1.1.1 | head -n1 | cut -d' ' -f5
